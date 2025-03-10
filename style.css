@@ -1,18 +1,100 @@
-*{
-  margin: auto;
-  padding: auto;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@513&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+
+
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
 }
 
-.header-container{
+/* shared styles */
+.display-flex {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* margin: auto;
-  padding: auto;
-   */
 }
-ul,li ,a{
-  display: flex;
-  gap : 10px;
+
+.btn-primary {
+  border-radius: 8px;
+  background: rgb(255, 144, 14);
+  width: 180px;
+  height: 64px;
+  color: white;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+
+
+/* header styles */
+.bg-light {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+
+
+
+/* navbar styles */
+/* dark 02 */
+.text-gray {
+  color: rgb(66, 66, 66);
+}
+
+/* dark 01 */
+.text-light-gray {
+  color: rgb(114, 114, 114);
+}
+
+/* navbar */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 30PX;
+
+}
+
+.nav-link {
   text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar,
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* banner related styles */
+.banner-content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.banner-description {
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
 }
