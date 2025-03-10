@@ -1,0 +1,18 @@
+*{
+  margin: auto;
+  padding: auto;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin: auto;
+  padding: auto;
+   */
+}
+ul,li ,a{
+  display: flex;
+  gap : 10px;
+  text-decoration: none;
+}
