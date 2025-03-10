@@ -27,6 +27,11 @@
   font-weight: 600;
 }
 
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
 
 
 /* header styles */
@@ -97,4 +102,93 @@
   line-height: 26px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+/* this is main section */
+/* .our-features{
+  display: grid;
+  align-items: center;
+  justify-content: center; 
+   margin: 0 auto;
+} */
+.team-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.teams {
+  align-items: center;
+  justify-content: center;
+  margin-top: 85px;
+  /* margin: 0 auto; */
+}
+
+.our-features {
+  margin-left: 74px;
+}
+
+
+
+.feature-description {
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px
+}
+
+.span {
+  color: rgb(255, 144, 14);
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 53px;
+}
+
+.of {
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 53px;
+  color: rgb(19, 19, 19);
+}
+
+.Quick {
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 53px;
+  color: rgb(19, 19, 19);
+
+}
+/* lovely and quick section */
+.some-facts{
+  font-size: 3rem;
+  font-weight: 700; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+  .navbar,
+  .nav-links {
+    flex-direction: column;
+  }
+
 }
