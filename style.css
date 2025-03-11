@@ -162,10 +162,59 @@ main {
   color: rgb(19, 19, 19);
 
 }
+
 /* lovely and quick section */
-.some-facts{
+.some-facts {
   font-size: 3rem;
-  font-weight: 700; 
+  font-weight: 700;
+}
+
+.facts-container {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.section {
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0%;
+}
+
+.text-light-gray {
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+
+.footer-container {
+  /* background-color: #f7f7f7; */
+  text-align: center;
+  margin-top: 180px;
+  padding: 30px;
+
+}
+
+.footer-img-container {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+.footer-img-container>img {
+  /* width: 45.22px;
+  height: 45.22px;
+} */
+.Sponspors-title{
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 
