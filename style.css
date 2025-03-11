@@ -209,12 +209,34 @@ main {
 }
 
 .footer-img-container>img {
+
   /* width: 45.22px;
-  height: 45.22px;
-} */
-.Sponspors-title{
+  height: 45.22px; */
+}
+
+.Sponspors-title {
   font-size: 3rem;
   font-weight: 400;
+}
+
+.fact-icon {
+  width: 80.11px;
+  height: 80.1px;
+
+}
+
+.footer {
+  width: 1440px;
+  height: 100px;
+  border-radius: 8px;
+  background: rgb(255, 244, 231);
+  margin-top: 141px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-top: 50px;
 }
 
 
