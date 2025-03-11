@@ -239,6 +239,29 @@ main {
   margin-top: 50px;
 }
 
+.feature-tittle {
+  border-left: 5px solid rgb(255, 144, 14);
+  padding: 21px;
+}
+
+.features {
+  gap: 150px;
+  margin-top: 130px;
+  margin-bottom: 150px;
+}
+
+.feature-card {
+  box-shadow: 0 4px 30px 0;
+  padding: 30px;
+  margin-top: 20px;
+
+}
+
+.experience {
+  width: 342px;
+  height: 200px;
+
+}
 
 
 
